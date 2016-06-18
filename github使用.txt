@@ -1,0 +1,24 @@
+## 功能及定义
+基于git的代码托管平台。
+## 模型
+1. Git 一个分布式版本控制系统。 
+2. 本地仓库有三棵树组成：工作目录（working directory），保存实际文件；暂存区（index），临时保存改动；head，指向最后一次提交的结果
+## 术语
+1. 从工作目录提出更改到index暂存区：从工作目录添加到暂存区，git add
+2. 从工作目录提交改动到head，将改动提交到head，git commit
+3. 从head提交到远端仓库，git push origin xxx
+4. 添加到远端仓库，git remote add origin <server>
+5. 创建分支，git check-out -b my_branch
+6. 删除分支，git branch -d my_branch
+7. 分支推送到远端仓库，git push origin <branch>
+8. 获取改动，git fetch 
+## 参考文献
+[github官方网站帮助--英文](https://help.github.com/)
+
+[hello world of github](https://guides.github.com/activities/hello-world/)
+
+[github简明指南](http://rogerdudler.github.io/git-guide/index.zh.html)
+
+[gitgui中文教程](http://www.runoob.com/w3cnote/git-gui-window.html)
+
+[公钥私钥生成方法](http://www.cnblogs.com/smismile/p/3789874.html)
